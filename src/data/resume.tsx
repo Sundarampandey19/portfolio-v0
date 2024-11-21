@@ -150,23 +150,28 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Temazon",
-      href: "https://github.com/Sundarampandey19/ClassLink",
-      dates: "Mar 2024 - June 2024",
-      active: false,
-      description: "Designed an intuitive user interface with TailwindCSS and Daisy UI components, achieving a higher user satisfaction rate. Integrated Mongodb database with Prisma ORM for seamless user data persistence, for up to 100,000 users. ",
+      title: "CareBridge",
+      href: "https://github.com/Sundarampandey19/CareBridge",
+      dates: "August 2024 - August 2024",
+      active: true,
+      description: "A comprehensive Clinic Management System built with Ruby on Rails 7, providing different dashboards for Admin, Receptionists, Doctors, and Patients. This system helps manage clinic operations smoothly, from scheduling appointments to managing patients and payments.",
 
       technologies: [
-        "Next.js",
-        "Typescript",
+        "Ruby on Rails 7",
         "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Devise",
+        "Chartkick",
+        "Groupdate",
+        "Faker",
+        "Kaminari",
+        "ERB",
       ],
       links: [
+        {
+          type: "Website",
+          href: "https://carebridge-usji.onrender.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Github",
           href: "https://github.com/Sundarampandey19/ClassLink",
@@ -202,6 +207,34 @@ export const DATA = {
       ],
       image: "",
       video: "",
+    },
+    {
+      title: "Temazon",
+      href: "https://github.com/Sundarampandey19/ClassLink",
+      dates: "Mar 2024 - June 2024",
+      active: false,
+      description: "Designed an intuitive user interface with TailwindCSS and Daisy UI components, achieving a higher user satisfaction rate. Integrated Mongodb database with Prisma ORM for seamless user data persistence, for up to 100,000 users. ",
+
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Stripe",
+        "Shadcn UI",
+        "Magic UI",
+      ],
+      links: [
+        {
+          type: "Github",
+          href: "https://github.com/Sundarampandey19/ClassLink",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:"",
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
    
   ],
