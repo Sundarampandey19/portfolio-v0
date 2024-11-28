@@ -174,7 +174,7 @@ export const DATA = {
         },
         {
           type: "Github",
-          href: "https://github.com/Sundarampandey19/ClassLink",
+          href: "https://github.com/Sundarampandey19/CareBridge",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -210,7 +210,7 @@ export const DATA = {
     },
     {
       title: "Temazon",
-      href: "https://github.com/Sundarampandey19/ClassLink",
+      href: "https://github.com/Sundarampandey19/Temazon",
       dates: "Mar 2024 - June 2024",
       active: false,
       description: "Designed an intuitive user interface with TailwindCSS and Daisy UI components, achieving a higher user satisfaction rate. Integrated Mongodb database with Prisma ORM for seamless user data persistence, for up to 100,000 users. ",
@@ -228,13 +228,12 @@ export const DATA = {
       links: [
         {
           type: "Github",
-          href: "https://github.com/Sundarampandey19/ClassLink",
+          href: "https://github.com/Sundarampandey19/Temazon",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
       video:"",
-      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
    
   ],
